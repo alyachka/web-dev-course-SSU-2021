@@ -1,0 +1,58 @@
+body {
+    color: #bdc3c7
+}
+
+h1{
+    color: #9b59b6
+}
+
+h2{
+     color: rgb(204, 191, 168)
+    }
+
+li{ 
+    color: blue
+}
+
+p{
+    background-color: yellow
+}
+
+form input[type="text"]{
+
+    background-color: grey;
+}
+
+
+div:nth-of-type(3){
+
+    background-color: pink;
+}
+
+
+div:nth-of-type(3)>em{
+
+    background-color:  white;
+    font: 20px;
+}
+
+
+input[type="checkbox"]:checked{
+    margin-left: 50px;
+}
+
+
+label {
+    text-transform: uppercase;
+}
+
+
+[id="special"]::first-letter{
+    color: green;
+    font: 100px;
+}
+
+
+a:visited{
+    color:green;
+}
