@@ -1,0 +1,49 @@
+.head 
+{
+    background-color:plum;
+    text-align: center;
+}
+.menu 
+{
+    width: 20%;
+    float: left;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.posts
+{
+    width: 50%;
+    box-sizing: border-box;
+    border-left: 2px solid plum;
+    padding: 10px;
+    text-align: left;
+}
+.last-posts
+{
+    box-sizing: border-box;
+    border: 2px dashed rgb(194, 71, 153);
+    float: right;
+    padding: 10px;
+    text-align: right;
+}
+
+.menu, .posts, .last-posts
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer
+{
+    text-align: center;
+}
+
+a:visited 
+{
+    color: purple;
+}
+
+a:hover
+{
+    color: rgb(194, 71, 153);
+}
