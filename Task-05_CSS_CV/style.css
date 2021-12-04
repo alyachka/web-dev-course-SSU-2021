@@ -1,0 +1,110 @@
+body {
+    width: 80%;
+    color: #262626;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+a:link {
+    color: #262626;
+}
+
+a:visited {
+    color: #262626;
+}
+
+a:hover {
+    color: rgb(228, 95, 184);
+}
+
+header table {
+    border: none;
+    border-bottom: 3px solid #53cd67;
+    width: 100%;
+}
+
+.avatar_cell {
+    width: 10%;
+}
+
+.general_info {
+    width: 60%;
+}
+
+.general_info * {
+    margin: 0 0 0 30px;
+}
+
+.name {
+    font-size: 30px;
+}
+
+.department {
+    font-size: 20px;
+}
+
+.contact_info {
+    width: 20%;
+    text-align: start;
+    padding-right: 20px;
+}
+
+.avatar {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid grey;
+}
+
+.title {
+    vertical-align: top;
+    color: #53cd67;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+}
+
+h1 {
+    font-family: ".SF NS";
+}
+
+.date {
+    font-family: ".SF NS";
+}
+
+p {
+    margin-block-start: 17px;
+}
+
+section:not(:first-child) {
+    border-top: 1px solid rgb(235, 179, 223);
+}
+
+section table {
+    width: 100%;
+}
+
+section table * {
+    padding: 0;
+}
+
+section table td:nth-child(odd) {
+    width: 20%;
+    vertical-align: top;
+}
+
+section table td:nth-child(even) {
+    width: 80%
+}
